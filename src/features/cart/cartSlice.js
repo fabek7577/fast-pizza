@@ -2,15 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { action } from "../order/CreateOrder";
 
 const initialState = {
-  cart: [
-    {
-      pizzaId: 7,
-      name: "Napoli",
-      quantity: 3,
-      unitPrice: 16,
-      totalPrice: 48,
-    },
-  ],
+  cart: [],
 };
 
 const cartSlice = createSlice({
